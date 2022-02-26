@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.letter-label{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#playlist-container div input[type$="button"]{
+    border-radius: 25px;
+    width: 200px;
+    font-weight: 500;
+    color: #fff;
+    font-size: 18px;
+    height: 40px;
+    outline: none;
+    background-color: #61D4B3;
+    border-style: none;
+}

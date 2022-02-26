@@ -1,0 +1,42 @@
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+
+#search-container{
+    background-image: url("../../../../assets/images/vinyl2.jpg");
+    background-color: #FB8D62;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-active{
+    background-image: none !important;
+    height: 10vh !important;
+    transition-duration: 0.3s;
+}
+
+#search-container input[type$="text"]{
+    border-radius: 25px 0 0 25px;
+    border-style: none;
+    height: 40px;
+    outline: none;
+    background-color: #f7dfa2;
+    padding-left: 30px;
+}
+
+#search-container input[type$="button"]{
+    border-radius: 0 25px 25px 0;
+    border-style: none;
+    height: 40px;
+    font-weight: 500;
+    font-size: 18;
+    background-color: #FDD365;
+}
+
+.vh-80{
+    height: 80vh;
+}
+
